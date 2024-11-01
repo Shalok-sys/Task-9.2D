@@ -4,7 +4,7 @@ import { Elements } from '@stripe/react-stripe-js';
 import { loadStripe } from '@stripe/stripe-js';
 import PaymentForm from './CheckoutPage';
 
-const stripePromise = loadStripe('pk_test_51QFetAJN1WGEDgJeuNB3XS6crT4nlyJcSjPLRSpvlcChkVgEeRwuXBh7EsBdhnYcrMKX1lipHQkgSYiOBm4sD4Or00UWwt3Cki'); // Replace with your public key
+const stripePromise = loadStripe('PUBLISHABLE_API_KEY'); 
 
 const Premium = () => {
   return (
